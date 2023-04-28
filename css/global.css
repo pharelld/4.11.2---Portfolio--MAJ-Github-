@@ -599,6 +599,15 @@ section {
   background: #F5F5F5;
 }
 
+.portfolio__text a{
+  color: #FFF;
+}
+
+.portfolio__text a.active {
+  color: #777777;
+  background: #5b6c78;
+}
+
 .portfolioart {
   background: #d871113d;
   padding: 0 20px;
@@ -696,6 +705,18 @@ section {
 
 .modal__title {
   margin: 0 0 2rem;
+  border-bottom: 2px solid #25303b;
+  padding-bottom: 10px;
+  line-height: 140%;
+  padding-top: 10px;
+}
+
+.modal__titlebis {
+  margin: 0 0 2rem;
+  border-bottom: 2px solid #25303b;
+  padding-bottom: 10px;
+  line-height: 140%;
+
 }
 
 .modal__close {
